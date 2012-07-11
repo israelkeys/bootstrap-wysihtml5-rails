@@ -4,19 +4,19 @@
     var templates = {
         "font-styles": "<li class='dropdown'>" +
                            "<a class='btn dropdown-toggle' data-toggle='dropdown' href='#'>" +
-                               "<i class='icon-font'></i>&nbsp;<span class='current-font'>Normal text</span>&nbsp;<b class='caret'></b>" +
+                               "<i class='icon-font'></i><b class='caret'></b>" +
                            "</a>" +
                            "<ul class='dropdown-menu'>" +
-                               "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div'>Normal text</a></li>" +
+                               "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div'>Normal</a></li>" +
                                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h1'>Heading 1</a></li>" +
                                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h2'>Heading 2</a></li>" +
                            "</ul>" +
                        "</li>",
         "emphasis":    "<li>" +
                            "<div class='btn-group'>" +
-                               "<a class='btn' data-wysihtml5-command='bold' title='CTRL+B'>Bold</a>" +
-                               "<a class='btn' data-wysihtml5-command='italic' title='CTRL+I'>Italic</a>" +
-                               "<a class='btn' data-wysihtml5-command='underline' title='CTRL+U'>Underline</a>" +
+                               "<a class='btn' data-wysihtml5-command='bold' title='CTRL+B'>B</a>" +
+                               "<a class='btn' data-wysihtml5-command='italic' title='CTRL+I'>I</a>" +
+                               "<a class='btn' data-wysihtml5-command='underline' title='CTRL+U'>U</a>" +
                            "</div>" +
                        "</li>",
         "lists":       "<li>" +
